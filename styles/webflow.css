@@ -172,4 +172,41 @@ main{
 .bold{
   font-weight: bold;
 }
+/* Newsletter part */
+.newsletter-container{
+  display: flex;
+  gap:233px;
+  justify-content: space-between;
+}
+.get-in-touch{
+  font-size: 97px;
+  font-weight: bold;
+}
+.input-title{
+  font-size: 18px;
+  margin: 10px 0 10px 0;
+  padding: 0;
+}
+.get-in-touch-button{
+  margin-top: 19px;
+  height: 62px;
+  width: 540px;
+}
+.form-container input[type=text],.form-container input[type=email]{
+  border: none;
+  background-color: var(--white);
+  border-radius: 10px;
+  width: 497px;
+  height: 50px;
+  padding-left: 32px;
+  
+}.form-container textarea{
+  border: none;
+  background-color: var(--white);
+  border-radius: 10px;
+  width: 497px;
+  height: 135px;
+  padding: 32px 20px 32px 20px;
+
+}
 
