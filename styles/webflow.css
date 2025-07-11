@@ -1,6 +1,7 @@
 :root{
-    --secondary-color: #8987A1;
     --primary-color: #4E47FF;
+    --secondary-color:rgba(37, 36, 50, 0.5);
+;
     --background-color: #D6DDED;
     --black-color: #252432;
     --yellow: #FFB805;
@@ -10,6 +11,12 @@
 
 .raleway{
   font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -79,5 +86,35 @@ main{
 .action-content{
   font-size: 24px;
   color: var(--secondary-color);
+}
+/* Productive user part */
+.productive-section{
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  text-align: center;
+  margin: 116px 0px 116px 0px;
+  padding: 50px 80px 50px 80px;
+}
+.productive-title{
+  font-size: 38px;
+  font-weight: bold;
+  
+}
+.productive-stats{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.productive-data{
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 80px;
+  margin: 0;
+  padding: 0;
+}
+.productive-data-desc{
+  font-size: 20px;
+  color: var(--secondary-color);
+  
 }
 
