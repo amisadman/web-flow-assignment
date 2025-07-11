@@ -48,7 +48,7 @@ nav{
   background-color: var(--background-color);
 }
 .banner{
-  background-image: url("/images/Hero-bg.png");
+  background-image: url("../images/Hero-bg.png");
 }
 .logo{
   color: var(--primary-color);
