@@ -191,6 +191,7 @@ main{
   height: 62px;
   width: 540px;
 }
+
 .form-container input[type=text],.form-container input[type=email]{
   border: none;
   background-color: var(--white);
@@ -233,5 +234,32 @@ footer{
 .footer-nav a{
   color: var(--secondary-color);
   text-decoration: none;
+}
+/* focus part */
+.bottom-margin{
+  margin-bottom: 20px;
+}
+
+.focus-container{
+  background-color: var(--white);
+  text-align: center;
+  padding: 71px 150px 71px 150px;
+  border-radius: 14px;
+
+}
+.focus-title{
+  font-size: 50px;
+
+
+}
+.focus-sub-title{
+  font-size: 16px;
+  color: var(--secondary-color);
+
+}
+.wc-big{
+  width: 840px;
+  height: 365px;
+  border-radius: 48px;
 }
 
