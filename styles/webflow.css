@@ -20,12 +20,13 @@
     font-size: 16px;
     border-radius: 10px;
     font-weight: bold;
-    height: 48px;
-    width: 132px;
     padding: 10px 30px 10px 30px;
     border: none;
     text-align: center;
     
+}
+.primary-button:hover {
+  background-color: var(--black-color)
 }
 /* nav part */
 nav{
@@ -52,3 +53,31 @@ nav{
   font-size: 65px;
   font-weight: Bold;
 }
+.signup-button{
+    height: 48px;
+    width: 132px;
+}
+/* main part */
+main{
+  padding:137px 150px 137px 150px
+}
+/* action part */
+.action-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 230px;
+}
+.wc-mini{
+  height: 328px;
+  width: 403px;
+  border-radius: 48px;
+}
+.action-title{
+  font-size: 42px;
+  font-weight: bold;
+}
+.action-content{
+  font-size: 24px;
+  color: var(--secondary-color);
+}
+
